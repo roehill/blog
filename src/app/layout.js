@@ -9,8 +9,8 @@ import ThemeProvider from "@/providers/ThemeProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Lama Dev Blog App",
-  description: "The best blog app!",
+  title: "Oneblog - personal website tempalte",
+  description: "Blog theme",
 };
 
 export default function RootLayout({ children }) {
