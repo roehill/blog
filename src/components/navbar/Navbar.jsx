@@ -14,7 +14,9 @@ const Navbar = () => {
         <Image src="/tiktok.png" alt="facebook" width={24} height={24} />
         <Image src="/youtube.png" alt="facebook" width={24} height={24} />
       </div>
-      <div className={styles.logo}>oneblog</div>
+      <div className={styles.logo}>
+        <Link href="/">oneblog</Link>
+      </div>
       <div className={styles.links}>
         <ThemeToggle />
         <Link href="/" className={styles.link}>
